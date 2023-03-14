@@ -1,7 +1,7 @@
 public class PrimeNumberChallenge {
     public static void main(String[] args) {
         int counter = 0;
-        for (int numList = 1; numList <= 1000; numList++){
+        for (int numList = 1; numList <= 1000; numList++){             // can add ( counter < 3 && numList <= 1000) instead as well
             if (isPrime(numList)){
                 System.out.println(numList + " is a prime number");
                 counter++;
