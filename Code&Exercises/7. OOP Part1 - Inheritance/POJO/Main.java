@@ -14,5 +14,17 @@ public class Main {
                     2);
             System.out.println(s);
         }
+        // Part 2
+        
+        Student pojoStudent = new Student(3214, "Ann","5/7/1999",3);
+        LPAStudent recordStudent = new LPAStudent(3214, "Jacob","5/7/1999",3);
+
+        System.out.println(pojoStudent);
+        System.out.println(recordStudent);
+
+        pojoStudent.setClassList(pojoStudent.getClassList() + 3);
+
+        System.out.println(pojoStudent.getName() + " list " + pojoStudent.getClassList());
+        System.out.println(recordStudent.name() + " list " + recordStudent.classList());
     }
 }
