@@ -1,16 +1,20 @@
-public class Main {
+public class Main extends Object{
     public static void main(String[] args) {
-        Animal animal = new Animal("Generic Animal", "Big", 400);
-        doAnimalStuff(animal, "fast");
+        Employee tim = new Employee("Tim", "11/11/1987", "01/01/2020");
+        System.out.println(tim);
+        System.out.println("Age = " + tim.getAge());
+        System.out.println("Pay = " + tim.collectPay());
 
-        Dog dog = new Dog();
-        doAnimalStuff(dog,"Fast");
-    }
+        SalariedEmployee joe = new SalariedEmployee("Joe", "02/05/1990","01/01/2020",35000);
+        System.out.println(joe);
+        System.out.println("Joe's payment: " + joe.collectPay());
 
-    public static void doAnimalStuff(Animal animal, String speed) {
-        animal.makesNoise();
-        animal.move(speed);
-        System.out.println(animal);
-        System.out.println("_ _ _ _");
+        joe.retire();
+        System.out.println("Joe Pension check: " + joe.collectPay());
+
+        HourlyEmployee mary = new HourlyEmployee("Mary", "05/05/1970", "03/03/2021", 15);
+        System.out.println(mary);
+        System.out.println("Marys Paycheck: " + mary.collectPay());
+        System.out.println("Marys Holiday Pay: " + mary.getDoublePay());
     }
 }
