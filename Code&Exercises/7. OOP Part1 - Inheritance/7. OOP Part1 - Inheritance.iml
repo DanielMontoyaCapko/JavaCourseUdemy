@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/96. The-Text-Block-and-other-Formatting-Options" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/97 Another look at String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ClassesChallengeExercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ComplexOperations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ConstructorChallenge" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Cylinder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Floor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POJO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Person" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Point" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PoolArea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SumCalculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WallArea" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
